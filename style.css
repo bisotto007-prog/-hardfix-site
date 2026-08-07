@@ -22,7 +22,7 @@ body {
     color: #ddd;
 }
 
-.botoes a {
+.buttons a {
     display: inline-block;
     margin: 10px;
     padding: 12px 25px;
@@ -34,26 +34,26 @@ body {
     transition: .3s;
 }
 
-.botoes a:hover {
+.buttons a:hover {
     background: #f0c94d;
 }
 
-.produtos {
+.products {
     padding: 50px 20px;
     text-align: center;
 }
 
-.produtos h2 {
+.h2 products {
     color: #d4af37;
     margin-bottom: 30px;
 }
 
-.produtos ul {
+.ul products {
     list-style: none;
     padding: 0;
 }
 
-.produtos li {
+.products li {
     background: #222;
     margin: 10px auto;
     max-width: 400px;
