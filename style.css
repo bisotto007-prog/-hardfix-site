@@ -18,45 +18,43 @@ body {
 }
 
 .hero p {
-    font-size: 20px;
     color: #ddd;
+    font-size: 20px;
 }
 
-.buttons a {
+.botoes a {
     display: inline-block;
     margin: 10px;
     padding: 12px 25px;
     background: #d4af37;
     color: #111;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 8px;
-    transition: .3s;
+    font-weight: bold;
 }
 
-.buttons a:hover {
-    background: #f0c94d;
+.botoes a:hover {
+    background: #f2c94c;
 }
 
-.products {
+.produtos {
     padding: 50px 20px;
     text-align: center;
 }
 
-.h2 products {
+.produtos h2 {
     color: #d4af37;
-    margin-bottom: 30px;
 }
 
-.ul products {
+.produtos ul {
     list-style: none;
     padding: 0;
 }
 
-.products li {
+.produtos li {
     background: #222;
-    margin: 10px auto;
     max-width: 400px;
+    margin: 10px auto;
     padding: 15px;
     border-radius: 8px;
 }
