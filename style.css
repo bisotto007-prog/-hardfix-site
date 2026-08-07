@@ -1,50 +1,62 @@
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#111;
-    color:#fff;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
 }
 
-.hero{
-    text-align:center;
-    padding:80px 20px;
-    background:#1b1b1b;
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #1b1b1b;
 }
 
-.hero h1{
-    color:#d4af37;
-    font-size:42px;
+.hero h1 {
+    color: #d4af37;
+    font-size: 42px;
+    margin-bottom: 15px;
 }
 
-.hero p{
-    font-size:20px;
+.hero p {
+    font-size: 20px;
+    color: #ddd;
 }
 
-.botoes a{
-    display:inline-block;
-    margin:10px;
-    padding:12px 24px;
-    background:#d4af37;
-    color:#111;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
+.botoes a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background: #d4af37;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .3s;
 }
 
-section{
-    padding:50px 20px;
+.botoes a:hover {
+    background: #f0c94d;
 }
 
-.grade{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:20px;
+.produtos {
+    padding: 50px 20px;
+    text-align: center;
 }
 
-.cartao{
-    background:#222;
-    padding:40px;
-    border-radius:10px;
-    text-align:center;
-    border:2px solid #d4af37;
+.produtos h2 {
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+.produtos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.produtos li {
+    background: #222;
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 8px;
 }
